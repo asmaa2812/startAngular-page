@@ -1,0 +1,6 @@
+img{
+    transition: all 0.3s ease-in-out;
+}
+img:hover{
+    box-shadow: 12px 12px 12px rgb(245, 66, 66);
+}

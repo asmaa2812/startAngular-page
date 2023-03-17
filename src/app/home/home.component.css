@@ -1,0 +1,31 @@
+.section
+{
+    height: 100vh;
+    background-color: #1abc9c;
+}
+.section img
+{
+    height: 250px;
+}
+.section h1{
+    font-size: 4rem;
+    position: relative; 
+}
+ .section h1::after
+{
+    content: "";
+    position:absolute;
+    border-bottom: 3px solid white;
+    padding: 2px 58px;
+    bottom: -40px;
+    right: 24%;
+}
+.section h1::before
+{
+    content: "";
+    position:absolute;
+    border-bottom: 3px solid white;
+    padding: 2px 58px;
+    top: 110px;
+    left: 24%;
+} 

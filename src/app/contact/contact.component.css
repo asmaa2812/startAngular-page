@@ -1,0 +1,42 @@
+.contact h2
+{
+    position: relative;
+}
+.contact h2::after
+{
+    content: "";
+    position:absolute;
+    border-bottom: 3px solid var(--secondColor);
+    padding: 2px 35px;
+    bottom: -30px;
+    right: 65%;
+}
+.contact h2::before
+{
+    content: "";
+    position:absolute;
+    border-bottom: 3px solid var(--secondColor);
+    padding: 2px 35px;
+    top: 110px;
+    left: 65%;
+} 
+.contact label
+{
+    color: #6c757d;
+}
+.contact input
+{
+    border: none !important;
+    border-radius:0px;
+    border-bottom: 1px solid #859099 !important;
+}
+.contact input:focus
+{
+    border: none !important;
+    border-radius: 4px;
+}
+.contact button
+{
+    background-color: var(--mainColor);
+    transform: translateX(135px);
+}

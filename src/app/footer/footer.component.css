@@ -1,0 +1,27 @@
+.footer
+{
+    background-color: var(--secondColor);
+}
+.footer .part
+{
+    background-color: #3c556d;
+}
+.footer .link
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--mainColor);
+    transition: all 0.3s ease-in-out;
+}
+.link:hover
+{
+    background-color: var(--mainColor) !important;
+}
+.link:hover i
+{
+    color: var(--secondColor) !important;
+}

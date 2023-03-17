@@ -1,0 +1,9 @@
+.navbar
+{
+    background-color: var(--secondColor) !important;
+    transition: padding 0.6s ;
+}
+.active
+{
+    background-color: var(--mainColor);
+}
